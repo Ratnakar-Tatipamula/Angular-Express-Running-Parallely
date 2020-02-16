@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+
+
+    "start": "concurrently \"npm run server-api\" \"npm run server\"",
+    "server": "ng serve --proxy-config proxy.config.json",
+    "server-api": "nodemon server.js --watch server",
+
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
