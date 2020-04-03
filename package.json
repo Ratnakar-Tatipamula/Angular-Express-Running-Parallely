@@ -1,0 +1,22 @@
+{
+  "name": "crazy-app",
+  "version": "1.0.0",
+  "description": "this is the demo app for practicing all slack stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ratnakar",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^1.8.0",
+    "@slack/events-api": "^2.3.2",
+    "@slack/interactive-messages": "^1.5.0",
+    "@slack/web-api": "^5.8.0",
+    "@slack/webhook": "^5.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "googleapis": "^48.0.0",
+    "request": "^2.88.2"
+  }
+}
